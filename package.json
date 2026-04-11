@@ -1,0 +1,44 @@
+{
+  "name": "@alexey-gara/ag-eslint-ts",
+  "version": "1.0.0",
+  "description": "ESLint rules and TS common configurations",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    },
+    "./tsconfig.json": "./tsconfig.json"
+  },
+  "files": [
+    ".eslint-rules.json",
+    "index.cjs",
+    "index.mjs",
+    "tsconfig.json"
+  ],
+  "type": "module",
+  "keywords": [],
+  "author": "Alexey Gara",
+  "license": "MIT",
+  "packageManager": "pnpm@10.30.3",
+  "peerDependencies": {
+    "eslint": "^8.57.1",
+    "prettier": "^3.5.3",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.21.0",
+    "@stylistic/eslint-plugin-ts": "^1.8.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-prettier": "^5.2.6",
+    "@typescript-eslint/parser": "^8.55.0",
+    "@typescript-eslint/eslint-plugin": "^8.55.0",
+    "typescript-eslint": "^8.25.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
