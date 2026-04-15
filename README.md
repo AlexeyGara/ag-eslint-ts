@@ -11,7 +11,7 @@
   <a href="https://www.npmjs.com/package/@alexey-gara/ag-eslint-ts">
     <img src="https://img.shields.io/npm/dm/@alexey-gara/ag-eslint-ts" alt="npm downloads" />
   </a>
-  <a href="https://github.com/alexey-gara/ag-eslint-ts/blob/main/LICENSE">
+  <a href="https://github.com/AlexeyGara/ag-eslint-ts?tab=readme-ov-file#license">
     <img src="https://img.shields.io/github/license/alexey-gara/ag-eslint-ts" alt="license" />
   </a>
 </p>
@@ -198,7 +198,7 @@ This configuration extends multiple rule sets and plugins and is based on:
 - `typescript-eslint` recommended rules
 - `eslint-plugin-import`
 - `@stylistic/eslint-plugin-ts`
-+ full list of rules are here [.eslint-rules.json](./.eslint-rules.json)
++ full list of rules are here [.eslint-rules.json](https://github.com/AlexeyGara/ag-eslint-ts/blob/main/.eslint-rules.json)
 
 To see the full resolved list of rules used in your project, run:
 
