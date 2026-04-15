@@ -1,6 +1,6 @@
 {
   "name": "@alexey-gara/ag-eslint-ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint rules and TS common configurations",
   "main": "./index.cjs",
   "module": "./index.mjs",
