@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/npm/dm/@alexey-gara/ag-eslint-ts" alt="npm downloads" />
   </a>
   <a href="https://github.com/AlexeyGara/ag-eslint-ts/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/alexey-gara/ag-eslint-ts" alt="license" />
+    <img src="https://img.shields.io/github/license/AlexeyGara/ag-eslint-ts" alt="license" />
   </a>
 </p>
 
@@ -26,6 +26,8 @@
 - ✅ Supports **Flat Config (ESLint v9+)**
 - ✅ Backward compatibility with **ESLint v8**
 - ✅ Works with `pnpm` monorepos
+
+[🔗 Explore ESLint configuration and rules](https://alexeygara.github.io/ag-eslint-ts/)
 
 ---
 
@@ -199,6 +201,7 @@ This configuration extends multiple rule sets and plugins and is based on:
 - `eslint-plugin-import`
 - `@stylistic/eslint-plugin-ts`
 + full list of rules are here [.eslint-rules.json](https://github.com/AlexeyGara/ag-eslint-ts/blob/main/.eslint-rules.json)
++ inspect all rules - [https://alexeygara.github.io/ag-eslint-ts/rules](https://alexeygara.github.io/ag-eslint-ts/rules)
 
 To see the full resolved list of rules used in your project, run:
 

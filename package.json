@@ -18,6 +18,14 @@
     "tsconfig.json"
   ],
   "type": "module",
+  "scripts": {
+    "inspect-eslint": "npx @eslint/config-inspector --config index.mjs",
+    "inspect-eslint:build": "npx @eslint/config-inspector build --config index.mjs",
+    "serve": "serve ./.eslint-config-inspectore",
+    "deploy": "node deploy.js"
+  },
+  "repository": "https://github.com/AlexeyGara/ag-eslint-ts",
+  "homepage": "https://github.com/AlexeyGara/ag-eslint-ts#readme",
   "keywords": [
     "eslint",
     "typescript",
@@ -56,6 +64,11 @@
     "@typescript-eslint/parser": "^8.55.0",
     "@typescript-eslint/eslint-plugin": "^8.55.0",
     "typescript-eslint": "^8.25.0"
+  },
+  "devDependencies": {
+    "@eslint/config-inspector": "^0.5.0",
+    "gh-pages": "^6.3.0",
+    "serve": "^14.2.5"
   },
   "publishConfig": {
     "access": "public"
