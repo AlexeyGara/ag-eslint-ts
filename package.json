@@ -21,7 +21,7 @@
   "keywords": [
     "eslint","typescript","prettier",
     "eslint-config","typescript-eslint","ts-eslint","stylistic",
-    "eslint-flat-config","monorepo","pnpm",
+    "eslint-flat-config","pnpm",
     "shared-config","code-style","code-quality","formatting","best-practices",
     "strict",
     "developer-experience",
