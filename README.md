@@ -11,7 +11,7 @@
   <a href="https://www.npmjs.com/package/@alexey-gara/ag-eslint-ts">
     <img src="https://img.shields.io/npm/dm/@alexey-gara/ag-eslint-ts" alt="npm downloads" />
   </a>
-  <a href="https://github.com/AlexeyGara/ag-eslint-ts?tab=readme-ov-file#license">
+  <a href="https://github.com/AlexeyGara/ag-eslint-ts/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/alexey-gara/ag-eslint-ts" alt="license" />
   </a>
 </p>
@@ -188,7 +188,7 @@ Yes — Prettier is included in the setup but must still be installed as a depen
 
 ## License
 
-MIT
+[MIT](https://github.com/AlexeyGara/ag-eslint-ts/blob/main/LICENSE)
 
 ---
 
