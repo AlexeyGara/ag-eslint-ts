@@ -69,6 +69,19 @@
       "message": "No get/set at interface and types declarations."
   }],
 
+  "no-extend-native": "warn",
+
+  "no-undef-init": "warn",
+  "no-undefined": "warn",
+
+  "no-extra-parens": ["warn", "all", {
+    "conditionalAssign": false,
+    "returnAssign": false,
+    "nestedBinaryExpressions": false,
+    "enforceForArrowConditionals": false,
+    "ignoreJSX": "multi-line"
+  }],
+
   "@typescript-eslint/no-misused-promises": ["error", {
     "checksVoidReturn": true
   }],
